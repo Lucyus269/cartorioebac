@@ -134,7 +134,8 @@ int main()
      printf("Escolha a opção desejada: \n\n");//texto
      printf("\t1 - resgistra nomes\n");//opçao 1
      printf("\t2 - Consultar nomes\n");//opção 2
-     printf("\t3 - deletar nomes\n\n");//opçao 3
+     printf("\t3 - deletar nomes\n");//opçao 3
+     printf("\t4 - sair do aplicativo\n\n");
      printf("escolha sua opção: \n");
 	 scanf("%d",&opcao);//armazena a escolha do usuario
 	
@@ -154,7 +155,10 @@ int main()
 	    deletar();
 		break;	
 		
-		
+		case 4:
+	    printf("Obrigado por utilizar o sistema!\n");
+		return 0;
+		break;
 		
 		
 		default:
